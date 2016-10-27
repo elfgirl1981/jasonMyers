@@ -1,0 +1,61 @@
+body {
+  background-color: #dddddd;
+}
+
+h1, .availability, .contact {
+  background-color: #bbbbbb;
+}
+
+h1, h2, h3 {
+  color: #003300;
+  font-family: 'Dosis',sans-serif;
+  font-size: 150%;
+}
+
+p, table, iframe {
+  color: #131313;
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.4em;
+}
+
+fieldset {
+  background-color: #b2d8b2;
+}
+
+p.intro:first-letter {
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.intro {
+  text-indent: 1em;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 0.2em;
+  text-shadow: 2px 2px 3px #666666;
+}
+
+a {
+  text-decoration: none;
+  color: #003300;
+}
+
+a:visited {
+  color: #3BB855;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.availability {
+  height: 200px;
+  width: 700px;
+}
+
+.availability.table {
+  height: 80%;
+  width: 90%; 
+}
