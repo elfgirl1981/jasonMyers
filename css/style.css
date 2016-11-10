@@ -35,17 +35,12 @@ p.intro:first-letter {
   text-indent: 1em;
 }
 
-h1 {
+.navbar-brand {
   font-family: 'Permanent Marker', cursive;
   letter-spacing: 0.2em;
   text-shadow: 2px 2px 3px #666666;
   text-align: center;
   height: 50px;
-}
-
-#navbar {
-  margin: 10px auto 10px auto;
-  height: 100px;
 }
 
 #list li {
