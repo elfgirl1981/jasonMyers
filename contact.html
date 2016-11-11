@@ -48,40 +48,44 @@
 
 <!--------------------   Begin Content  -------------------->
 
-
-<div class="contact">
+<div class="container">
 
   <h3> Contact </h3>
 
-  <p> You can contact Jason on:
-    <ul id="contact-list">
-      <li> <a href="https://www.facebook.com/jason.myers.148">Facebook</a> </li>
-      <li> <a href="https://twitter.com/rockpix1980">Twitter</a> </li>
-      <li> <a href="mailto:rockpix1980@yahoo.com">Email</a></li>
-    </ul>
-  </p>
+  <div class="row">
 
+  <div class="contact">
+    <div class="col-md-6">
+      <p> You can contact Jason on:
+          <ul id="contact-list">
+            <li> <a href="https://www.facebook.com/jason.myers.148">Facebook</a> </li>
+            <li> <a href="https://twitter.com/rockpix1980">Twitter</a> </li>
+            <li> <a href="mailto:rockpix1980@yahoo.com">Email</a></li>
+          </ul>
+      </p>
+    </div>
+  </div>
+
+  <div class="message">
+    <div class="col-md-6">
+     <fieldset>
+       <legend>Or leave him a message here:</legend>
+       <label>Name: <br />
+       <input type="text" name="name" required="required"/>
+       </label> <br />
+       <label>Email: <br />
+       <input type="text" name="email" required="required" />
+       </label> <br />
+       <label> Comments: <br />
+       <textarea name="comments" required="required"></textarea>
+       </label> <br />
+       <input type="submit" value="Submit" required="required" />
+       </fieldset>  
+    </div>
+  </div>
+
+  </div>
 </div>
-
-<p>Or leave him a message here:
-
-<fieldset>
-
-  <legend>Contact Jason</legend>
-    <label>Name: <br />
-      <input type="text" name="name" required="required"/>
-    </label> <br />
-    <label>Email: <br />
-      <input type="text" name="email" required="required" />
-    </label> <br />
-    <label> Comments: <br />
-      <textarea name="comments" required="required"></textarea>
-    </label> <br />
-    <input type="submit" value="Submit" required="required" />
-</fieldset>
-
-</p>
-
 
 <!-- Javascript -->
 

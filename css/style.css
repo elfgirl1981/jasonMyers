@@ -10,6 +10,14 @@ body {
   background-color: #bbbbbb;
 }
 
+.contact {
+  border: 2px solid #bbbbbb;
+  height: 250px;
+  weight: 250px;
+  padding: 0 15px 0 15px;
+  border-radius: 50px;
+}
+
 h1, h2, h3 {
   color: #003300;
   font-family: 'Dosis',sans-serif;
@@ -22,8 +30,13 @@ p, table, iframe {
   line-height: 1.4em;
 }
 
-fieldset {
+.message {
   background-color: #b2d8b2;
+  border: 2px solid #b2d8b2;
+  height: 250px;
+  weight: 250px;
+  padding: 0 15px 0 15px;
+  border-radius: 50px;
 }
 
 p.intro:first-letter {
