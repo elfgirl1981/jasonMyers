@@ -31,7 +31,7 @@ p.intro:first-letter {
   font-size: 200%;
 }
 
-.intro {
+.intro, .paragraph {
   text-indent: 1em;
 }
 
