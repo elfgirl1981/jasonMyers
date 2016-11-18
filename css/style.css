@@ -11,11 +11,18 @@ body {
 }
 
 .contact {
+  position: relative;
   border: 2px solid #bbbbbb;
   height: 250px;
   weight: 250px;
   padding: 0 15px 0 15px;
   border-radius: 50px;
+  text-align: center;
+}
+
+#contact-list {
+  list-style: none;
+
 }
 
 h1, h2, h3 {
@@ -37,6 +44,7 @@ p, table, iframe {
   weight: 250px;
   padding: 0 15px 0 15px;
   border-radius: 50px;
+  text-align: center;
 }
 
 p.intro:first-letter {
@@ -91,9 +99,4 @@ a:hover {
   border: 2px solid #444343;
   padding: 0 15px 0 15px;
   border-radius: 50px;
-}
-
-ul {
-  /*list-style-image: url("images/camera_bullet.png");*/
-  list-style-type: square;
 }
