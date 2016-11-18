@@ -11,17 +11,36 @@ body {
 }
 
 .contact {
-  position: relative;
   border: 2px solid #bbbbbb;
-  height: 250px;
-  weight: 250px;
-  padding: 0 15px 0 15px;
+  height: 300px;
+  width: 300px;
   border-radius: 50px;
   text-align: center;
+  padding-top: 75px;
 }
+
+.contact p {
+  font-size: 20px;
+}
+
+.message {
+  background-color: #b2d8b2;
+  border: 2px solid #b2d8b2;
+  padding-top: 80px;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 50px;
+  width: 300px;
+  height: 500px;
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+}
+
 
 #contact-list {
   list-style: none;
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
 
 }
 
@@ -37,15 +56,6 @@ p, table, iframe {
   line-height: 1.4em;
 }
 
-.message {
-  background-color: #b2d8b2;
-  border: 2px solid #b2d8b2;
-  height: 250px;
-  weight: 250px;
-  padding: 0 15px 0 15px;
-  border-radius: 50px;
-  text-align: center;
-}
 
 p.intro:first-letter {
   font-weight: bold;
