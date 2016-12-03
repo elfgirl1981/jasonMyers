@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<head>
+
+<title> Jason Myers - Home </title>
+
+<link href="css/style.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="css/demo.css">
+<link rel="stylesheet" href="css/footer-distributed.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Dosis|Permanent+Marker" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<div id="page">
+
+
+<body>
+
+  <!--------------------   begin navbar   -------------------->
+
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Jason Myers - Photographer</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="gallery.html">Photo Gallery</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!--------------------   Begin Content  -------------------->
+
+
+<h1>Login Page </h1>
+
+<form name="login">
+  Username<input type="text" name "userid"/>
+  Password<input type="password" name="paswrd" />
+  <input type="button" onclick="check(this.form)" value="Login" />
+  <input type="reset" value="Cancel" />
+</form>
+
+
+
+<!--------------------   begin footer  -------------------->
+
+<footer class="footer-distributed">
+
+  <div class="footer-right">
+
+    <a href="https://www.facebook.com/jason.myers.148"><i class="fa fa-facebook"></i></a>
+    <a href="https://twitter.com/rockpix1980"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/in/jason-myers-80604225"><i class="fa fa-linkedin"></i></a>
+
+  </div>
+
+  <div class="footer-left">
+
+    <p class="footer-links">
+      <a href="#">Home</a>
+      ·
+      <a href="about.html">About</a>
+      ·
+      <a href="contact.html">Contact</a>
+      ·
+      <a href="gallery.html">Photo Gallery</a>
+
+    </p>
+
+    <p>Jason Myers &copy; 2016</p>
+  </div>
+
+</footer>
+
+<!--------------------   begin Javascript  -------------------->
+
+<script>
+
+function check(form)
+{
+  if (form.userid.value == "myuserid" && form.pswrd.value == "mypswrd")
+  {
+    window.open('target.html')
+  }
+  else {
+    alert("Error Password or Username")
+
+  }
+}
+
+</script>
+
+
+</script>
+
+
+</body>
+
+</div>
+
+</html>
