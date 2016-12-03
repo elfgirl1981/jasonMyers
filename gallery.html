@@ -2,143 +2,273 @@
 
 <head>
 
-<title> Jason Myers - Photo Gallery </title>
+    <title> Jason Myers - Photo Gallery </title>
 
-<link href="css/style.css" type="text/css" rel="stylesheet"/>
-<link rel="stylesheet" href="css/demo.css">
-<link rel="stylesheet" href="css/footer-distributed.css">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Dosis|Permanent+Marker" rel="stylesheet">
-<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/footer-distributed.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Permanent+Marker" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
 <div id="page">
 
 
-<body>
+    <body>
 
-  <!--------------------   begin navbar   -------------------->
+        <!--------------------   begin navbar   -------------------->
 
-  <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Jason Myers - Photographer</a>
-    </div>
+                    <a class="navbar-brand" href="index.html">Jason Myers - Photographer</a>
+                </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li class="active"><a href="#">  <span class="sr-only">(current)</span>Photo Gallery</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li class="active">
+                            <a href="#"> <span class="sr-only">(current)</span>Photo Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
 
-<!--------------------   Begin Content  -------------------->
+        <!--------------------   Begin Content  -------------------->
 
-<div class="container-fluid"
+        <div class="container-fluid" <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="images/basketball.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Girl dribbling ball in profile">
+                </a>
+            </div>
 
-<div class="row">
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/basketball.jpg" alt="Girl dribbling ball in profile">
-    </a>
-  </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="images/fairy.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="Baby dressed as a fairy">
+                </a>
+            </div>
 
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/fairy.jpg" alt="Baby dressed as a fairy">
-    </a>
-  </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="images/flag.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="Man's profile in front of American flag">
+                </a>
+            </div>
 
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/flag.jpg" alt="Man's profile in front of American flag">
-    </a>
-  </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="images/football.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="Candid image from highschool football game">
+                </a>
+            </div>
 
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/football.jpg" alt="Candid image from highschool football game">
-    </a>
-  </div>
+        </div>
 
-</div>
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="images/guitar.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow" alt="Boy headbanging while playing guitar">
+                </a>
+            </div>
 
-<div class="row">
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/guitar.jpg" alt="Boy headbanging while playing guitar">
-    </a>
-  </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="images/joshua.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow" alt="portrait of a baby boy with pumpkins">
+                </a>
+            </div>
 
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/joshua.jpg" alt="portrait of a baby boy with pumpkins">
-    </a>
-  </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="images/karate.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow" alt="boy doing a karate kick">
+                </a>
+            </div>
 
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/karate.jpg" alt="boy doing a karate kick">
-    </a>
-  </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="images/singer.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow" alt="man singing on stage">
+                </a>
+            </div>
 
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/singer.jpg" alt="man singing on stage">
-    </a>
-  </div>
+        </div>
 
-</div>
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="images/swimmer.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow" alt="man swimming">
+                </a>
+            </div>
 
-<div class="row">
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/swimmer.jpg" alt="man swimming">
-    </a>
-  </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="images/tennis.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow" alt="portrait of girl holding tennis racket">
+                </a>
+            </div>
 
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/tennis.jpg" alt="portrait of girl holding tennis racket">
-    </a>
-  </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="images/toni.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow" alt="black and white candid of a woman kissing a boy of the cheek">
+                </a>
+            </div>
 
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/toni.jpg" alt="black and white candid of a woman kissing a boy of the cheek">
-    </a>
-  </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="images/wrestling.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow" alt="highschool wrestling match">
+                </a>
+            </div>
 
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="images/wrestling.jpg" alt="highschool wrestling match">
-    </a>
-  </div>
+        </div>
 
-</div>
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
 
-</div>
+                <div class="mySlides">
+                    <div class="numbertext">1 / 12</div>
+                    <img src="images/basketball.jpg" style="width:100%">
+                </div>
 
-<!-- Javascript -->
+                <div class="mySlides">
+                    <div class="numbertext">2 / 12</div>
+                    <img src="images/fairy.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 12</div>
+                    <img src="images/flag.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 12</div>
+                    <img src="images/football.jpg" style="width:100%">
+                </div>
+
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="mySlides">
+                            <div class="numbertext">5 / 12</div>
+                            <img src="images/guitar.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">6 / 12</div>
+                            <img src="images/joshua.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">7 / 12</div>
+                            <img src="images/karate.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">8 / 12</div>
+                            <img src="images/singer.jpg" style="width:100%">
+                        </div>
+
+                        <div id="myModal" class="modal">
+                            <span class="close cursor" onclick="closeModal()">&times;</span>
+                            <div class="modal-content">
+
+                                <div class="mySlides">
+                                    <div class="numbertext">9 / 12</div>
+                                    <img src="images/swimmer.jpg" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">10 / 12</div>
+                                    <img src="images/tennis.jpg" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">11 / 12</div>
+                                    <img src="images/toni.jpg" style="width:100%">
+                                </div>
+
+                                <div class="mySlides">
+                                    <div class="numbertext">12 / 12</div>
+                                    <img src="images/wrestling.jpg" style="width:100%">
+                                </div>
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                                <div class="caption-container">
+                                    <p id="caption"></p>
+                                </div>
+<!-- start -->
+                                <div class="column">
+                                    <img class="demo" src="images/basketball.jpg" onclick="currentSlide(1)" alt="Girl dribbling ball in profile">
+                                </div>
+
+                                <div class="column">
+                                    <img class="demo" src="images/fairy.jpg" onclick="currentSlide(2)" alt="Baby dressed as a fairy">
+                                </div>
+
+                                <div class="column">
+                                    <img class="demo" src="images/flag.jpg" onclick="currentSlide(3)" alt="Man's profile in front of American flag">
+                                </div>
+
+                                <div class="column">
+                                    <img class="demo" src= "images/football.jpg" onclick="currentSlide(4)" alt="Candid image from highschool football game">
+                                </div>
+
+                                <div class="column">
+                                    <img class="demo" src="images/guitar.jpg" onclick="currentSlide(5)" alt="Boy headbanging while playing guitar">
+                                </div>
+
+                                <div class="column">
+                                    <img class="demo" src="images/joshua.jpg" onclick="currentSlide(6)" alt="portrait of a baby boy with pumpkins">
+                                </div>
+
+                                <div class="column">
+                                    <img class="demo" src="images/karate.jpg" onclick="currentSlide(7)" alt="Mountboy doing a karate kickains">
+                                </div>
+
+                                <div class="column">
+                                    <img class="demo" src="images/singer.jpg" onclick="currentSlide(8)" alt="man singing on stage">
+                                </div>
+
+                                <div class="column">
+                                    <img class="demo" src="images/swimmer.jpg" onclick="currentSlide(9)" alt="man swimming">
+                                </div>
+
+                                <div class="column">
+                                    <img class="demo" src="images/tennis.jpg" onclick="currentSlide(10)" alt="portrait of girl holding tennis racket">
+                                </div>
+
+                                <div class="column">
+                                    <img class="demo" src="images/toni.jpg" onclick="currentSlide(11)" alt="black and white candid of a woman kissing a boy of the cheek">
+                                </div>
+
+                                <div class="column">
+                                    <img class="demo" src="images/wrestling.jpg" onclick="currentSlide(12)" alt="highschool wrestling match">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
 
 
 
-<!-- <h5> Color Palette For Site </h5>
+
+                    <!-- <h5> Color Palette For Site </h5>
   <ul>
     <li id="1"> #131313 </li>
     <li id="2"> #dddddd </li>
@@ -150,42 +280,79 @@
   <p> <a href="http://www.color-hex.com/color-palette/20159"> MaddoxstonForest Color Palette
 </a> </p> -->
 
-<!--------------------   begin footer  -------------------->
+                    <!--------------------   begin footer  -------------------->
 
-<footer class="footer-distributed">
+                    <footer class="footer-distributed">
 
-  <div class="footer-right">
+                        <div class="footer-right">
 
-    <a href="https://www.facebook.com/jason.myers.148"><i class="fa fa-facebook"></i></a>
-    <a href="https://twitter.com/rockpix1980"><i class="fa fa-twitter"></i></a>
-    <a href="https://www.linkedin.com/in/jason-myers-80604225"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/jason.myers.148"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/rockpix1980"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/jason-myers-80604225"><i class="fa fa-linkedin"></i></a>
 
 
-  </div>
+                        </div>
 
-  <div class="footer-left">
+                        <div class="footer-left">
 
-    <p class="footer-links">
-      <a href="index.html">Home</a>
-      ·
-      <a href="about.html">About</a>
-      ·
-      <a href="contact.html">Contact</a>
-      ·
-      <a href="#">Photo Gallery</a>
+                            <p class="footer-links">
+                                <a href="index.html">Home</a> ·
+                                <a href="about.html">About</a> ·
+                                <a href="contact.html">Contact</a> ·
+                                <a href="#">Photo Gallery</a>
 
-    </p>
+                            </p>
 
-    <p>Jason Myers &copy; 2016</p>
-  </div>
+                            <p>Jason Myers &copy; 2016</p>
+                        </div>
 
-</footer>
+                    </footer>
 
-<script>
+                    <!-- Javascript -->
 
-</script>
-</body>
 
-</div>
+                    <script>
 
-</html>
+                    function openModal() {
+                      document.getElementById('myModal').style.display = "block";
+                    }
+
+                    function closeModal() {
+                      document.getElementById('myModal').style.display = "none";
+                    }
+
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+
+                    function plusSlides(n) {
+                      showSlides(slideIndex += n);
+                    }
+
+                    function currentSlide(n) {
+                      showSlides(slideIndex = n);
+                    }
+
+                    function showSlides(n) {
+                      var i;
+                      var slides = document.getElementsByClassName("mySlides");
+                      var dots = document.getElementsByClassName("demo");
+                      var captionText = document.getElementById("caption");
+                      if (n > slides.length) {slideIndex = 1}
+                      if (n < 1) {slideIndex = slides.length}
+                      for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";
+                      dots[slideIndex-1].className += " active";
+                      captionText.innerHTML = dots[slideIndex-1].alt;
+                    }
+
+                    </script>
+    </body>
+
+    </div>
+
+    </html>
