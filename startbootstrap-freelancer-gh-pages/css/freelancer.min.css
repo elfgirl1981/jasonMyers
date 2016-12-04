@@ -1,0 +1,72 @@
+/*!
+ * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+hr.star-light {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px
+}
+
+hr.star-light:after {
+    content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    font-size: 2em;
+    padding: 0 .25em
+}
+
+header .intro-text .name {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase
+}
+
+hr.star-light {
+    border-color: #fff
+}
+
+hr.star-light:after {
+    background-color: ##b2d8b2;
+    color: #fff
+}
+
+header {
+    color: #b2d8b2
+}
+
+header {
+    text-align: center;
+    background-color: ##b2d8b2
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px
+}
+
+header .intro-text .name {
+    display: block;
+    font-weight: 700;
+    font-size: 2em
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300
+}
+
+#jason {
+  border-radius: 15px 50px:
+}

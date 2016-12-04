@@ -81,21 +81,6 @@ p.intro:first-letter {
   height: 50px;
 }
 
-#background {
-    width: 100%;
-    height: auto;
-    position: relative;
-    left: 0px;
-    top: 0px;
-    z-index: 0;
-}
-
-.jason {
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-}
 
 a {
   text-decoration: none;
