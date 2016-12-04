@@ -1,6 +1,4 @@
-#page {
-  margin: 10px auto 10px auto;
-}
+
 
 body {
   background-color: #dddddd;
@@ -64,6 +62,10 @@ a:hover {
 
 /*******************lightbox css*******************/
 
+* {
+  box-sizing: border-box;
+}
+
 .row > .column {
   padding: 0 8px;
 }
@@ -99,7 +101,7 @@ a:hover {
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 70%;
+  width: 90%;
   max-width: 1200px;
 }
 
@@ -122,6 +124,10 @@ a:hover {
 
 .mySlides {
   display: none;
+}
+
+.cursor {
+  cursor: pointer
 }
 
 /* Next & previous buttons */
@@ -163,6 +169,10 @@ a:hover {
   top: 0;
 }
 
+img {
+  margin-bottom: -4px;
+}
+
 .caption-container {
   text-align: center;
   background-color: black;
@@ -170,7 +180,7 @@ a:hover {
   color: white;
 }
 
-img.demo {
+.demo {
   opacity: 0.6;
 }
 
