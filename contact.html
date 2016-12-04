@@ -58,14 +58,11 @@
 
 <!--------------------   Begin Content  -------------------->
 
-<div class="container">
+<!--
 
-  <h3> Contact </h3>
 
-  <div class="row">
 
-  <div class="contact">
-    <div class=".col-md-6">
+
       <p> You can contact Jason on:
           <ul id="contact-list">
             <li> <a href="https://www.facebook.com/jason.myers.148">Facebook</a> </li>
@@ -76,26 +73,95 @@
     </div>
   </div>
 
-  <div class="message">
-    <div class=".col-md-6">
-     <fieldset>
-       <legend>Or leave him a message here:</legend>
-       <label>Name: <br />
-       <input type="text" name="name" required="required"/>
-       </label> <br />
-       <label>Email: <br />
-       <input type="text" name="email" required="required" />
-       </label> <br />
-       <label> Comments: <br />
-       <textarea name="comments" required="required"></textarea>
-       </label> <br />
-       <input type="submit" value="Submit" required="required" />
-       </fieldset>
-    </div>
-  </div>
+  <!-- Page Content -->
+     <div class="container">
+
+         <!-- Page Heading/Breadcrumbs -->
+         <div class="row">
+             <div class="col-lg-12">
+                 <h1 class="page-header">Contact </h1>
+             </div>
+         </div>
+         <!-- /.row -->
+
+         <!-- Content Row -->
+        <div class="row">
+            <!-- Map Column -->
+            <div class="col-md-8">
+                <!-- Embedded Google Map -->
+                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3106.6384554174024!2d-90.09266170000001!3d38.863632200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df5bcabd5f4b6b%3A0x25713481d49ba543!2s237+E+Penning+Ave%2C+Wood+River%2C+IL+62095!5e0!3m2!1sen!2sus!4v1474414949071"></iframe>
+            </div>
+
+            <!-- Contact Details Column -->
+<div class="col-md-4">
+    <h3>Contact Details</h3>
+    <p>
+        237 E. Penning Ave. <br>Wood River, IL 62095<br>
+    </p>
+    <p><i class="fa fa-phone"></i>
+        <abbr title="Phone">P</abbr>: (618) 216-1234</p>
+    <p><i class="fa fa-envelope-o"></i>
+        <abbr title="Email">E</abbr>: <a href="mailto:rockpix1980@yahoo.com">rockpix1980@yahoo.com</a>
+    </p>
+    <ul class="list-unstyled list-inline list-social-icons">
+        <li>
+            <a href="https://www.facebook.com/jason.myers.14"><i class="fa fa-facebook-square fa-2x"></i></a>
+        </li>
+        <li>
+            <a href="https://twitter.com/rockpix1980"><i class="fa fa-twitter-square fa-2x"></i></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/jason-myers-80604225"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        </li>
+    </ul>
+</div>
+</div>
+
+<!-- Contact Form -->
+        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+        <div class="row">
+            <div class="col-md-8">
+                <h3>Send him a message</h3>
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Full Name:</label>
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Phone Number:</label>
+                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email Address:</label>
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Message:</label>
+                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <div id="success"></div>
+                    <!-- For success/fail messages -->
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+
 
   </div>
-</div>
+
+
+
+
 
 <!-- Javascript -->
 
