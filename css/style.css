@@ -61,11 +61,6 @@ a:hover {
 }
 
 /*******************lightbox css*******************/
-
-* {
-  box-sizing: border-box;
-}
-
 .row > .column {
   padding: 0 8px;
 }
@@ -126,10 +121,6 @@ a:hover {
   display: none;
 }
 
-.cursor {
-  cursor: pointer
-}
-
 /* Next & previous buttons */
 .prev,
 .next {
@@ -169,10 +160,6 @@ a:hover {
   top: 0;
 }
 
-img {
-  margin-bottom: -4px;
-}
-
 .caption-container {
   text-align: center;
   background-color: black;
@@ -180,7 +167,7 @@ img {
   color: white;
 }
 
-.demo {
+img.demo {
   opacity: 0.6;
 }
 
@@ -196,6 +183,8 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
+
+/*end*/
 
 hr.star-light {
     padding: 0;
