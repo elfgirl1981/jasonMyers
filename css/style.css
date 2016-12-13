@@ -4,9 +4,7 @@ body {
   background-color: #dddddd;
 }
 
-.availability {
-  background-color: #bbbbbb;
-}
+
 
 h1, h2, h3 {
   color: #003300;
@@ -14,21 +12,18 @@ h1, h2, h3 {
   font-size: 150%;
 }
 
-p, table, iframe {
+p, iframe {
   color: #131313;
   font-family: 'Dosis', sans-serif;
   line-height: 1.4em;
 }
-
-
-p.intro:first-letter {
-  font-weight: bold;
-  font-size: 200%;
-}
-
-.intro, .paragraph {
-  text-indent: 1em;
-}
+/*
+.table-bordered {
+  color: #131313;
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.4em;
+  padding-top: 20px;
+}*/
 
 .navbar-brand {
   font-family: 'Permanent Marker', cursive;
@@ -52,13 +47,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.availability {
-  height: 200px;
-  width: 700px;
-  border: 2px solid #444343;
-  padding: 0 15px 0 15px;
-  border-radius: 50px;
-}
+
 
 /*******************lightbox css*******************/
 .row > .column {
@@ -223,8 +212,6 @@ header {
     text-align: center;
     background-color: #b2d8b2;
     margin-top: -50px;
-
-
 }
 
 header .container-fluid {
@@ -264,4 +251,26 @@ header .intro-text .skills {
 
 .footer-distributed {
   margin-top: -100px;
+}
+
+/*about page*/
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro {
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #003300;
+    font-family: 'Dosis',sans-serif;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+.table-bordered {
+  background-color: #bbbbbb;
 }
