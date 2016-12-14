@@ -65,6 +65,10 @@ a:hover {
   width: 25%;
 }
 
+.small-img {
+  margin-bottom: 30px;
+}
+
 /* The Modal (background) */
 .modal {
   display: none;
@@ -83,7 +87,7 @@ a:hover {
 display: block;
   width: 1200px;
   height: 600px;
-  max-width: 700px; 
+  max-width: 700px;
   max-height:100%;
   overflow: auto;
 }
@@ -100,7 +104,7 @@ display: block;
 
 .close:hover,
 .close:focus {
-  color: #999;
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }
