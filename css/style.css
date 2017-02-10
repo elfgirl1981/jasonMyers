@@ -4,7 +4,9 @@ body {
   background-color: #dddddd;
 }
 
+.juan {
 
+}
 
 h1, h2, h3 {
   color: #003300;
@@ -214,7 +216,8 @@ hr.star-light:after {
 header {
     text-align: center;
     background-color: #b2d8b2;
-    margin-top: -50px;
+    margin-top: -20px;
+    padding-bottom: 150px;
 }
 
 header .container-fluid {
@@ -253,7 +256,7 @@ header .intro-text .skills {
 }
 
 .footer-distributed {
-  margin-top: -100px;
+  margin-top: 100px;
 }
 
 /*about page*/

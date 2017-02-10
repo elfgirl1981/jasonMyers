@@ -66,7 +66,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive img-circle" id="juan" src="images/jason.jpg" alt="black and white image of Jason Myers">
+                <img class="img-responsive img-circle" src="images/jason.jpg" alt="black and white image of Jason Myers">
                 <div class="intro-text">
                     <span class="name">Juan Marez</span>
                     <hr class="star-light">
@@ -125,7 +125,30 @@ MaddoxstonForest Color Palette
 
 <script>
 
-alert("Welcome to Juan's page!");
+var userName = prompt("Hello! What is your name?");
+var nameIsCorrect = false;
+
+while (nameIsCorrect == false) {
+  if (confirm("Your name is " + userName + "?")) {
+    nameIsCorrect = true;
+    alert("Nice to meet you, " + userName + ". Welcome to Juan's page!");
+  } else {
+    userName = prompt("Hello! What is your name?");
+  }
+
+}
+
+// var userAge = prompt("What's your age, user?");
+// var ageIsCorrect = false;
+//
+// while (ageIsCorrect == false) {
+//   if (confirm("You entered " + userAge + ". Is this correct?")) {
+//     ageIsCorrect = true;
+//     alert("Great! Your age is logged as " + userAge + ".");
+//   } else {
+//     userAge = prompt("What's your age, user?");
+//   }
+// }
 
 
 
