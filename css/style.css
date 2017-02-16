@@ -49,7 +49,78 @@ a:hover {
   text-decoration: underline;
 }
 
+/*header*/
 
+hr.star-light {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px
+}
+
+hr.star-light:after {
+    content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    font-size: 2em;
+    padding: 0 .25em
+}
+
+header .intro-text .name {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-light:after {
+    background-color: #b2d8b2;
+    color: #fff
+}
+
+header {
+    text-align: center;
+    background-color: #b2d8b2;
+    margin-top: -20px;
+    padding-bottom: 150px;
+}
+
+header .container-fluid {
+  min-height: 100%;
+  height: 100%;
+  overflow: auto;
+
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px
+}
+
+header .intro-text .name {
+    display: block;
+    font-weight: 700;
+    font-size: 2em
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300
+}
+
+.name {
+  color: #fff;
+}
+
+.skills {
+  color: #fff;
+}
 
 /*******************lightbox css*******************/
 .row > .column {
@@ -180,76 +251,7 @@ img.hover-shadow {
 
 /*end*/
 
-hr.star-light {
-    padding: 0;
-    border: none;
-    border-top: solid 5px;
-    text-align: center;
-    max-width: 250px;
-    margin: 25px auto 30px
-}
 
-hr.star-light:after {
-    content: "\f005";
-    font-family: FontAwesome;
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    font-size: 2em;
-    padding: 0 .25em
-}
-
-header .intro-text .name {
-    font-family: 'Dosis', sans-serif;
-    text-transform: uppercase
-}
-
-hr.star-light {
-    border-color: #fff;
-}
-
-hr.star-light:after {
-    background-color: #b2d8b2;
-    color: #fff
-}
-
-header {
-    text-align: center;
-    background-color: #b2d8b2;
-    margin-top: -20px;
-    padding-bottom: 150px;
-}
-
-header .container-fluid {
-  min-height: 100%;
-  height: 100%;
-  overflow: auto;
-
-}
-
-header img {
-    display: block;
-    margin: 0 auto 20px
-}
-
-header .intro-text .name {
-    display: block;
-    font-weight: 700;
-    font-size: 2em
-}
-
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300
-}
-
-.name {
-  color: #fff;
-}
-
-.skills {
-  color: #fff;
-}
 
 .intro-text {
   padding-top: 100px;
