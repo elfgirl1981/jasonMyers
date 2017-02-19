@@ -230,7 +230,7 @@ header .intro-text .skills {
 }
 
 .wrapped {
-  margin-bottom: -200px; 
+  margin-bottom: -200px;
 }
 
 /*******************lightbox css*******************/
@@ -370,7 +370,9 @@ img.hover-shadow {
 
 .footer-distributed {
   margin-top: -200px;
-
+  margin-bottom: -100px;
+  border-radius: 5px;
+  background-color: #292c2f;
 }
 
 /*about page*/
