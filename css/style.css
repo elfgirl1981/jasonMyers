@@ -114,7 +114,7 @@ body {
 }
 
 .juan {
-
+  margin-bottom: -200px;
 }
 
 h1, h2, h3 {
@@ -179,7 +179,7 @@ hr.star-light:after {
     padding: 0 .25em
 }
 
-header .intro-text .name {
+.wrapped .intro-text .name {
     font-family: 'Dosis', sans-serif;
     text-transform: uppercase
 }
@@ -193,14 +193,14 @@ hr.star-light:after {
     color: #fff
 }
 
-header {
+.wrapped {
     text-align: center;
     background-color: #b2d8b2;
     margin-top: -20px;
     padding-bottom: 110px;
 }
 
-header .container-fluid {
+.wrapped {
   min-height: 100%;
   height: 100%;
   overflow: auto;
@@ -208,18 +208,18 @@ header .container-fluid {
 
 }
 
-header img {
+img {
     display: block;
-    margin: 0 auto 20px
+    margin: 0 auto 20px;
 }
 
-header .intro-text .name {
+.wrapped .intro-text .name {
     display: block;
     font-weight: 700;
     font-size: 2em
 }
 
-header .intro-text .skills {
+.wrapped .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300
 }
@@ -232,8 +232,12 @@ header .intro-text .skills {
   color: #fff;
 }
 
-.wrapped {
-  margin-bottom: -200px;
+.wrapped .skills{
+  /*margin-bottom: -200px;*/
+  font-size: 1.25em;
+  font-weight: 300
+  display: block;
+  font-weight: 700;
 }
 
 /*******************lightbox css*******************/
