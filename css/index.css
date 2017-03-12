@@ -159,7 +159,7 @@ hr.star-light:after {
     padding: 0 .25em
 }
 
-.wrapped .intro-text .name {
+.wrapped .intro-text {
     font-family: 'Dosis', sans-serif;
     text-transform: uppercase
 }
@@ -194,27 +194,38 @@ img {
     margin: 0 auto 20px;
 }
 
-.wrapped .intro-text .name {
+.wrapped .intro-text {
     display: block;
     font-weight: 700;
     font-size: 2em
 
 }
 
-.wrapped .intro-text .skills {
+.wrapped .intro-text {
     font-size: 1.25em;
-    font-weight: 300
+    font-weight: 300;
 }
 
 .name {
   color: #fff;
+  display: block;
+  font-weight: 700;
+  font-size: 2em;
+  font-family: 'Dosis', sans-serif;
+  text-transform: uppercase
 }
 
 .skills {
   color: #fff;
+  font-size: 1.25em;
+  font-weight: 300;
+  font-size: 1.25em;
+  font-weight: 300
+  display: block;
+  font-weight: 700;
 }
 
-.wrapped .skills{
+.wrapped {
   /*margin-bottom: -200px;*/
   font-size: 1.25em;
   font-weight: 300
